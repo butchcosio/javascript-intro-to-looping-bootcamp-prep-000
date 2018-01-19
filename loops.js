@@ -21,6 +21,14 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
+function doWhileLoop(stringArray){
+  console.log(stringArray);
+  do{
+    console.log(stringArray.pop());
+  }while(stringArray.length > 0 && maybeTrue())
+  
+}
+
 function doWhile(stringArray){
   do {--array.length} 
   while (array.length > 0 && maybeTrue())
