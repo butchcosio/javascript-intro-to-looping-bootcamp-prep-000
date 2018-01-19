@@ -27,4 +27,3 @@ function doWhileLoop(array){
   }
   while(newArray.length > 0 && maybeTrue())
   }
-  return newArray
