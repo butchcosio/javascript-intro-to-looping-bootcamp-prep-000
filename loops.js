@@ -28,9 +28,3 @@ function doWhileLoop(stringArray){
   }while(stringArray.length > 0 && maybeTrue())
   
 }
-
-function doWhile(stringArray){
-  do {--array.length} 
-  while (array.length > 0 && maybeTrue())
-  return stringArray  
-}
