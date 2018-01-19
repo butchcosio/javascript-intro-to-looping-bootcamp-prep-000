@@ -23,8 +23,7 @@ function maybeTrue() {
 
 function doWhileLoop(stringArray){
   console.log(stringArray);
-  do{
-    console.log(stringArray.pop());
-  }while(stringArray.length > 0 && maybeTrue())
-  
-}
+  do {console.log(stringArray.pop());
+  }
+  while(stringArray.length > 0 && maybeTrue())
+  }
