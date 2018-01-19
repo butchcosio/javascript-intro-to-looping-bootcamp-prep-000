@@ -21,7 +21,7 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function doWhileLoop(array){
+function doWhileLoop(stringArray){
   var newArray = stringArray()
   do {console.log(newArray.pop());
   }
