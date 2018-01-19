@@ -21,5 +21,5 @@ function whileLoop(n){
 function doWhile(stringArray){
   do {--array.length} 
   while (array.length > 0 && maybeTrue())
-    
+  return stringArray  
 }
