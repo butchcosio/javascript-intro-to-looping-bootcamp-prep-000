@@ -7,7 +7,6 @@ function forLoop(stringArray){
 }
    
 function whileLoop(n){
-  var flag="notdone";
   while(n>0){
     console.log("The number is : "+ n)
     n--
