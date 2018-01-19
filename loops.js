@@ -17,6 +17,10 @@ function whileLoop(n){
   return flag;
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function doWhile(stringArray){
   do {--array.length} 
   while (array.length > 0 && maybeTrue())
