@@ -22,7 +22,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(stringArray){
-  var newArray = stringArray()
+  var newArray = stringArray.slice()
   do {console.log(newArray.pop());
   }
   while(newArray.length > 0 && maybeTrue())
